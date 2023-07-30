@@ -1,0 +1,444 @@
+#nagivation-section-top{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images_blog/MAIN-PHOTO.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+.container-top-navigation{
+    display:flex;
+    justify-content:space-around;
+  }
+.container-top-navigation ul{
+    display:flex;
+    list-style-type:none;
+  }
+.container-top-navigation li{
+    margin-left:10px;
+    margin-right:10px;
+    font-family: Lato,sans-serif;
+    font-size: .85rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    margin-top: 2rem;
+}
+.container-top-navigation li a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.container-top-navigation li a:visited{
+    color:white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.container-top-navigation li a:hover{
+    color: orange ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.container-top-navigation li a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.container-top-navigation h2{
+    font-family: Playfair Display,serif;
+    font-style: italic;
+    transition: color .1s;
+    font-size: 2.4rem;
+    margin: 20px;
+
+    color: white;
+}
+
+
+/* HEADER COMPNENTS */
+/* FIRST COLUMN*/
+.header-section-body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 1%;
+    
+  }
+.header-section-body div{
+    align-self: center;
+    margin: 1rem;
+    color: white;
+    
+}
+
+.header-section-body spam{
+    color: orange ;
+}
+.header-section-body  #first-col{
+    font-family: Lato,sans-serif;
+    font-size: .80rem;
+    font-weight: 400;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+/* MAIN HEADING SECOND COLUMN*/
+/*     font-family: Playfair Display,serif;  */
+
+.header-section-body h1{
+    font-family: Playfair Display , serif ;
+    font-family: 'Chela One', cursive;
+
+    font-family: 'Playfair Display', serif;
+
+    font-size:3.5rem;
+    
+}
+.header-section-body .paragraph-header-section{
+    width: 50%;
+    text-align: center;
+}
+.header-section-body button{
+    font-size : 1rem;
+    padding:1.5rem 2rem 1.5rem 2rem;
+    background-color: transparent;
+    border-color: orange;
+    color: white  ;
+}
+.header-section-body button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
+
+.header-section-adress{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-section-adress ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.header-section-adress .header-section-adress-adress1 p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 0.4rem;
+}
+.header-section-adress svg:hover{
+    color:orange ;
+}
+.header-section-adress svg{
+    color: white ;
+}
+/*SECOND SECTION */
+
+.second-section{
+    display: flex;
+    flex-direction: row;
+}
+/* THIRD SECTION*/
+#image-big-section3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images_blog/IMAGE-SECND-MAIN.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+/* 4rth section menu*/
+.Menu-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Menu-section div{
+    text-align: center;
+}
+.Menu-section p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.Menu-section h2{
+    font-size: 1.75rem;
+    color: #000;
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.text-menu{
+    font-weight: bold;
+    color: rgb(76, 75, 75);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* menu container*/
+.menu-container div{
+    height: 100px;
+   background-color: green;
+}
+
+.card{
+    border-radius: 5%;
+}
+
+/*     font-size : 1rem;
+    padding:1.5rem 2rem 1.5rem 2rem;
+    background-color: transparent;
+    border-color: orange;
+    color: white  ;
+}
+.header-section-body button:hover{
+    background-color:transparent ;
+    color:orange ;
+}*/
+
+.reservation-section button{
+    background-color: transparent;
+    padding: 1rem;
+    border-color: orange;
+    color: #000;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+}
+.reservation-section button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
+
+/* upcoming events*/
+.image-upcomingEvents{
+    width: 100%;
+    background-image: url(./images_blog/partyy2.jpg);
+   height: 100vh;
+}
+.upcoming-events{
+    width: 100%;
+}
+.image-upcomingEvents p{
+    color: white ;
+}
+.image-upcomingEvents .box-events{
+    width: 50%;
+    height: 70%;
+}
+.image-upcomingEvents .date-events{
+    color: orange ;
+    font-size: large;
+    font-weight: bold;
+}
+.image-upcomingEvents .date-events:hover{
+    color: blue;
+    font-size: 1.8rem;
+}
+.image-upcomingEvents .heading-events{
+    color: white;
+    font-size: 2rem;
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.image-upcomingEvents button{
+    background-color: transparent;
+    padding: 1rem;
+    border-color: orange;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+}
+.image-upcomingEvents button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
+
+/* .reservation-section button{
+    background-color: transparent;
+    padding: 1rem;
+    border-color: orange;
+    color: #000;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+}
+.reservation-section button:hover{
+    background-color:transparent ;
+    color:orange ;
+}*/
+
+
+.upcoming-events-reserve-section .events-button{
+    background-color: transparent;
+    padding: 1rem;
+    border-color: orange;
+    color: #000;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+}
+.upcoming-events-reserve-section .events-button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
+.upcoming-events-reserve-section .date{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.msg-button{
+    background-color: transparent;
+    padding: 1rem;
+    border-color: orange;
+    color: #000;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+    border-radius: 15%;
+}
+.msg-button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
+.new-letter h2{
+    font-family:Playfair Display,serif;
+}
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+
+.last-div{
+    background-color: black;
+    color: aliceblue;
+
+    gap: 2rem;
+}
+
+.last-div div h3{
+    color: orange;
+    font-size: 1.2rem;
+}
+.last-div div p{
+    color: grey;
+}
+.last-div div svg:hover{
+    color: orange ;
+}
+.last-div div a:link{
+    color: orange;
+}
+.last-div div a:visited{
+    color: orange;
+}
+.last-div div a:hover{
+    color: white;
+}
+@media(max-width:768px){
+    /* CHANGE KARDENA BADME */
+    
+
+    .container-top-navigation a{
+        font-size: 0.6rem;
+    }
+
+    .header-section-body{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .header-section svg{
+        width: 20px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .header-section-adress-adress1 > .para{
+       color: violet;
+    }
+
+    
+
+    /* images flex on second slide*/
+
+    /* HAVE TO FIX THE IMAGE AND THE TEXT IN THE MIDDLE */
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+    }
+    #first-div-caption{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    .menu-options img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .image-upcomingEvents .heading-events{
+        font-size: 1.5rem;
+    }
+
+    
+
+    .image-upcomingEvents .box-events{
+        width: 80%;
+    }
+
+}
+
+@media(max-width:576px){
+    .header-section .paragraph-header-section{
+      margin: 0px;
+      padding: 0px;
+    }
+    .header-section .div{
+        margin: 0px;
+        padding: 0px;
+    }
+    .box-events .heading-events{
+        font-size: 1rem;
+    }
+    .box-events p{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+.orange-button{
+    font-size : 1rem;
+    padding:1rem;
+    background-color: transparent;
+    border-color: orange;
+    color: black  ;
+}
+.orange-button:hover{
+    background-color:transparent ;
+    color:orange ;
+}
